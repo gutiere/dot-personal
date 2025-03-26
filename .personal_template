@@ -1,5 +1,7 @@
 echo -n "\e[38;5;093m 🚀 Sourcing ~/.personal ...\e[0m"
 sh ~/code/dot-personal/scripts/check_personal_divergence.sh
-
+dot_personal_repo_path="~/code/dot-personal" # Should be update to be more generic
+dot_personal_file_path="~/.personal"
 alias sync_personal="cp ~/.personal ~/code/dot-personal/.personal_template"
+alias sync_template="cp ~/code/dot-personal/.personal_template ~/.personal"
 alias said="say -v allison"
